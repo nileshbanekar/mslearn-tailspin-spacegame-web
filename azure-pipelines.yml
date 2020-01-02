@@ -2,13 +2,7 @@ trigger:
 - '*'
 
 pool:
-<<<<<<< HEAD
-  vmImage: 'ubuntu-16.04'
-  demands:
-    - npm
-=======
   vmImage: 'ubuntu-latest'
->>>>>>> fdf71fa4567e55d16effdcf5becce694a88bd985
 
 variables:
   buildConfiguration: 'Release'
